@@ -1,0 +1,59 @@
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 0;
+    padding-top: 25vh;
+}
+
+.sub_box{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#box1, #box2, #box3{
+    border-top: none;
+}
+
+#box1, #box4, #box7 {
+    border-left: none;
+}
+
+#box7, #box8, #box9 {
+    border-bottom: none;
+}
+
+#box3, #box6, #box9 {
+    border-right: none;
+}
+
+#winningwindow {
+    background-color: grey;
+    width: 30vw;
+    height: 30vw;
+    position: relative;
+    bottom: 25vw;
+    left: 35vw;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 13%;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+button {
+    margin: 10px;
+    height: 30px;
+    width: 60px;
+}

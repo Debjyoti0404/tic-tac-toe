@@ -14,7 +14,6 @@ document.querySelectorAll('.sub_box').forEach(div => {
             document.querySelector(div_id).innerHTML = sign_appear();
             chck_winner();
         }
-        console.log(arr); //testing
     }
 });
 

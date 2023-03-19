@@ -2,9 +2,6 @@ let count = 0;
 const arr = [0,0,0,0,0,0,0,0,0];
 let arr_pos;
 
-document.addEventListener("DOMContentLoaded", () => {
-    alert("This website is not mobile responsive yet!!")
-})
 document.querySelectorAll('.sub_box').forEach(div => {
     div.onclick = () => {
         let div_id = "#" + div.dataset.name;
